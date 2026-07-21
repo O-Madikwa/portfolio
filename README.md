@@ -36,7 +36,7 @@ portfolio/
 ├── style.css           # All styling (design tokens at the top)
 ├── script.js           # Interactivity
 ├── assets/
-│   └── Okuhle_Madikwa_CV.pdf   # Downloadable CV (add your exported PDF here)
+│   └── Okuhle_Madikwa_CV.pdf   # Downloadable CV
 └── README.md
 ```
 
