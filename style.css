@@ -3,12 +3,14 @@
    ========================================================================== */
 :root {
   --bg: #FAFAF9;
-  --bg-alt: #F1F0EC;
-  --ink: #17191C;
-  --slate: #5B6472;
-  --accent: #1F5F58;
-  --accent-tint: #E7EFEE;
-  --line: #E3E1DC;
+  --bg-alt: #F1EFF6;
+  --ink: #1A1720;
+  --slate: #625C70;
+  --accent: #6B3FA0;
+  --accent-bright: #9B5DE5;
+  --accent-tint: #F0E9FA;
+  --accent-warm: #E8843C;
+  --line: #E4E0EA;
   --white: #FFFFFF;
 
   --font-display: 'Space Grotesk', sans-serif;
@@ -126,6 +128,11 @@ a { color: inherit; text-decoration: none; }
 .hero {
   padding: 110px 0 70px;
   border-bottom: 1px solid var(--line);
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(600px 320px at 85% -10%, rgba(155, 93, 229, 0.16), transparent 70%),
+    radial-gradient(500px 300px at -5% 20%, rgba(232, 132, 60, 0.08), transparent 70%);
 }
 
 .eyebrow {
@@ -139,6 +146,10 @@ a { color: inherit; text-decoration: none; }
   font-size: clamp(2.6rem, 6vw, 4.4rem);
   letter-spacing: -0.02em;
   margin-bottom: 18px;
+  background: linear-gradient(100deg, var(--ink) 40%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .hero-role {
@@ -188,7 +199,7 @@ a { color: inherit; text-decoration: none; }
 .btn-primary { background: var(--ink); color: var(--bg); }
 .btn-primary:hover { transform: translateY(-2px); background: var(--accent); }
 .btn-ghost { border-color: var(--ink); color: var(--ink); }
-.btn-ghost:hover { transform: translateY(-2px); border-color: var(--accent); color: var(--accent); }
+.btn-ghost:hover { transform: translateY(-2px); border-color: var(--accent-warm); color: var(--accent-warm); }
 
 .hero-status {
   display: flex;
