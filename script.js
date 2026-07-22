@@ -25,9 +25,9 @@ navLinks.querySelectorAll('a').forEach((link) => {
 // Hero role-cycling "test runner" effect
 // ---------------------------------------------------------------------------
 const roles = [
-  'Quality Assurance — ready',
-  'Systems / Business Analysis — ready',
-  'Data Analytics — ready'
+  'Quality Assurance',
+  'Systems / Business Analysis',
+  'Data Analytics'
 ];
 
 const roleEl = document.getElementById('roleText');
