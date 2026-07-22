@@ -3,7 +3,7 @@
 Live site: https://o-madikwa.github.io/portfolio/
 
 A single-page portfolio site built as a "Virtual CV" for Graduate Programme applications in **Quality Assurance**,
-**Systems/Business Analysis**, and **Data Analytics**.
+**Systems/Business Analysis**, and **Data Analysis**.
 
 ## About
 
